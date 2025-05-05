@@ -2,9 +2,11 @@
 A Streamlit-based web application to estimate AQI contribution from construction sites based on raw materials used.
 
 📌 Project Description
-The Air Quality Index Contributor project aims to assess and quantify the impact of construction activities on air pollution. By calculating the emissions of seven major pollutants from the raw materials used at a construction site, this app provides an estimated AQI (Air Quality Index) contribution.
-The project uses real-world data from Delhi, integrating machine learning to analyze pollutant concentrations and predict AQI values with a trained linear regression model.
+The Air Quality Index Contributor project is designed to assess and quantify the impact of construction activities on air pollution. By calculating the emissions of seven major pollutants from the raw materials used at a construction site, this application estimates the contribution of these activities to the Air Quality Index (AQI).
 
+The project is built using real-world data from Delhi and integrates machine learning to analyze pollutant concentrations. A trained linear regression model is employed to predict AQI values based on the calculated pollutant concentrations.
+
+Additionally, the project features a calculator that converts the weight or quantity of raw materials used in construction (in kilograms) into pollutant concentrations (in µg/m³). This conversion helps in accurately determining the level of pollutants released into the air, facilitating better environmental management and decision-making during construction activities.
 🔍 Key Features
 📦 Input Raw Materials used in a construction site.
 
